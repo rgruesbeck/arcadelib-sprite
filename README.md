@@ -1,7 +1,7 @@
 # Sprite
 a flexible base sprite for use in browser games.
 
-- [object-pool for free](https://gameprogrammingpatterns.com/object-pool.html)
+- [object-pool](https://gameprogrammingpatterns.com/object-pool.html) for free
 - attach your own render method to each sprite
 - sprite methods are then-able
 
