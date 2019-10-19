@@ -3,7 +3,7 @@ a flexible base sprite for use in browser games.
 
 ## Features
 - [object-pool](https://gameprogrammingpatterns.com/object-pool.html) for free
-- attach your own render method to each sprite
+- attach arbitrary render methods to each sprite
 - sprite methods are chain-able
 
 
