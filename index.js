@@ -56,7 +56,7 @@ const SpritePrototype = {
 }
 
 // create a sprite
-const createSprite = ({
+export const createSprite = ({
     active = true,
     data = {},
     position,
@@ -81,18 +81,18 @@ const createSprite = ({
 };
 
 // create a list of sprites
-const createSprites = (options, renderMethod, n) => {
+export const createSprites = (options, renderMethod, n) => {
     return Array.apply(null, { length: n })
     .map(() => createSprite(options, renderMethod));
 }
 
 // find an available sprite
-const findAvailable = (sprites) => {
+export const findAvailable = (sprites) => {
     return sprites.find(s => !s.active);
 }
 
 // take available sprites
-const takeAvailable = (sprites, n) => {
+export const takeAvailable = (sprites, n) => {
     if (n === undefined) {
 
         return findAvailable(sprites);
