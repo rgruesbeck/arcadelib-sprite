@@ -6,11 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "Ron Gruesbeck",
+  "license": "ISC",
   "keywords": [
-    "games",
+    "game",
     "sprite",
     "object pool"
   ],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rgruesbeck/arclib-sprite.git"
+  }
 }
